@@ -1,0 +1,109 @@
+# Python and Virtual Environment related ignores
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+pip-log.txt
+pip-delete-this.txt
+.pytest_cache/
+.venv/  # Ignore the virtual environment directory
+venv/   # Also ignore 'venv' just in case
+ENV/    # And 'ENV' if sometimes used
+env/    # And 'env'
+
+# Editor/IDE and OS related ignores
+
+# Environments
+.env
+.venv
+venv
+env
+ENV
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments (more generic)
+*~
+.cache
+.history
+.spyder-unittest-config
+*.egg
+*.pth
+_build/
+*.mo
+*.pot
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Other files that should be ignored in most Python projects
+*.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.sqlite
+*.sqlite3
+*.dump
+*.orig
+*.pyc
+*.pyo
+*.pyd
+*.dSYM
+*.coverage
+*.lcov
+*.cargo
+*.pytest_cache
+.scrapy
+
+# User-specific files -  uncomment if you want to ignore these in your project as well, but be careful if you intend to share your repo and these files are relevant for others
+*.env
+secrets.json
+*.log
+*.m3u
