@@ -1,5 +1,5 @@
 """
-Module for validating stream URLs in M3U playlists.
+Module for validating stream URLs in M3U playlists. 
 """
 
 import logging

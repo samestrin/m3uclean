@@ -34,7 +34,7 @@ env/
 .vscode/
 *.swp
 *.swo
-
+ 
 # Test files
 tests/
 test_*.py
@@ -44,3 +44,9 @@ test_*.py
 # Other
 .DS_Store
 Thumbs.db
+
+# User-specific files -  uncomment if you want to ignore these in your project as well, but be careful if you intend to share your repo and these files are relevant for others
+*.env
+secrets.json
+*.log
+*.m3u

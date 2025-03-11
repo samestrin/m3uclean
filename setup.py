@@ -19,7 +19,12 @@ setup(
     ],
     python_requires=">=3.7",
     install_requires=[
-        "requests>=2.25.0",
+        "certifi==2025.1.31",
+        "charset-normalizer==3.4.1",
+        "idna==3.10",
+        "requests==2.32.3",
+        "tenacity==9.0.0",
+        "urllib3==2.3.0",
     ],
     entry_points={
         "console_scripts": [

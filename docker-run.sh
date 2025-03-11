@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Default values
+# Default values 
 INPUT_FILE="playlist.m3u"
 OUTPUT_FILE=""
 LOG_FILE=""

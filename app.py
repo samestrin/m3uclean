@@ -3,7 +3,7 @@
 m3uclean - A tool for validating and cleaning M3U playlists.
 
 This application validates M3U playlist entries, checks stream availability,
-removes duplicates, and cleans malformed entries.
+removes duplicates, and cleans malformed entries. 
 """
 
 import os

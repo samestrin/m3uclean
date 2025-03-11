@@ -1,5 +1,5 @@
 """
-Module for writing cleaned M3U playlists to files.
+Module for writing cleaned M3U playlists to files. 
 """
 
 import os

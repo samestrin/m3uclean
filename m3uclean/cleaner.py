@@ -1,5 +1,5 @@
 """
-Module for cleaning and deduplicating M3U playlist entries.
+Module for cleaning and deduplicating M3U playlist entries. 
 """
 
 import re

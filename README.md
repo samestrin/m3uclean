@@ -30,7 +30,7 @@ git clone https://github.com/samestrin/m3uclean.git
 cd m3uclean
 pip install -e .
 ```
-
+  
 ### Using Docker
 
 ```bash

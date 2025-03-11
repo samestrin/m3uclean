@@ -1,5 +1,5 @@
 """
-Module for parsing M3U playlist files.
+Module for parsing M3U playlist files. 
 """
 
 import os
