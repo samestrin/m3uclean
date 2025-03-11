@@ -118,7 +118,13 @@ class EntryCleaner:
         text = html.unescape(text)
         
         if self.aggressive:
-            # Aggressive cleaning: remove potentially problematic characters
+            # First remove already-encoded entities before aggressive cleaning
+            text = text.replace('&amp;', '&')
+            text = text.replace('&lt;', '<')
+            text = text.replace('&gt;', '>')
+            text = text.replace('&quot;', '"')
+            text = text.replace('&apos;', "'")
+            
             # Remove HTML/XML tags
             text = re.sub(r'<[^>]+>', '', text)
             
@@ -128,10 +134,10 @@ class EntryCleaner:
             # Replace multiple spaces with a single space
             text = re.sub(r'\s+', ' ', text)
         else:
-            # Standard cleaning: just encode potentially problematic characters
-            text = text.replace('&', '&amp;')
-            text = text.replace('<', '&lt;')
-            text = text.replace('>', '&gt;')
+            # Standard cleaning: only encode unencoded special characters
+            text = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;)', '&amp;', text)
+            text = re.sub(r'<(?![^>]*>)', '&lt;', text)
+            text = re.sub(r'>(?![^<]*<)', '&gt;', text)
             text = text.replace('"', '&quot;')
             text = text.replace("'", '&apos;')
         
