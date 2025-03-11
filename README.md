@@ -1,5 +1,6 @@
 # m3uclean
 [![Star on GitHub](https://img.shields.io/github/stars/samestrin/m3uclean?style=social)](https://github.com/samestrin/m3uclean/stargazers) [![Fork on GitHub](https://img.shields.io/github/forks/samestrin/m3uclean?style=social)](https://github.com/samestrin/m3uclean/network/members) [![Watch on GitHub](https://img.shields.io/github/watchers/samestrin/m3uclean?style=social)](https://github.com/samestrin/m3uclean/watchers)
+
 ![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-blue) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ](https://opensource.org/licenses/MIT)[![Built with Python](https://img.shields.io/badge/Built%20with-Python-green)](https://www.python.org/)
 
 A robust tool designed to validate and clean M3U playlists by verifying each channel's stream availability and removing any entries with invalid streams.
